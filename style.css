@@ -1,0 +1,149 @@
+/* Navigation Bar */
+nav {
+  background-color: #333; /* Background color */
+  padding: 1em; /* Padding */
+}
+nav a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  padding: 0.5em; /* Link padding */
+  margin: 0 0.5em; /* Link margin */
+  display: inline-block; /* Display links in a line */
+}
+nav a:hover {
+  background-color: #444; /* Change background color on hover */
+}
+/***********************************************/
+
+/*Logo de la page premier image de la page*/
+
+.logo {
+  display: block; /* Display the logo as a block element */
+  width: 100px; /* Width of the logo */
+  height: auto; /* Height will be adjusted automatically */
+  margin: 0 auto; /* Center the logo horizontally */
+}
+/***********************************************/
+
+
+/* La selection de la page index qui contient les h1 les a et les listes */
+.secIndex h1{
+  color: white;
+  text-align: center;
+  font-weight:  900;
+  font-family: 'Space Grotesk', sans-serif;
+  padding: 15px;
+
+  text-shadow: 3px 3px 0px black;
+}
+.secIndex a {
+  color : white;
+  font-size: 35px;
+  font-weight:  900;
+  font-family: 'Space Grotesk', arial;
+  padding: 15px;
+}
+
+
+.secIndex ul {
+  color : white;
+  font-size: 25px;
+
+  font-weight:  900;
+  font-family:  arial;
+  padding: 15px;
+}
+/***********************************************/
+
+/* arriere plan de la page d'acceuil et allignement index c'est pour dire tout le body de la page d'acceuil*/
+
+.index{
+  background-image: url('background-ia-index.jpg'); /* Définit l'image de fond */
+  background-size: contain;; /* Ajuste la taille de l'image pour la couvrir*/
+}
+/* Article */
+article {
+    width: 80%; /* Width of the article */
+    margin: 2em auto; /* Margin for the article */
+    padding: 1em; /* Padding for the article */
+    border: 2px solid #ddd; /* Add a border to the article */
+    background-color: #e9e4bd; /* Background color of the article */
+}
+
+article h2 {
+    font-size: 1.5em; /* Headline size */
+    margin-bottom: 0.5em; /* Bottom margin for the headline */
+}
+article p {
+    font-size: 1em; /* Paragraph text size */
+    line-height: 1.5; /* Line height for the paragraph */
+    margin-bottom: 1em; /* Bottom margin for the paragraph */
+}
+
+article figure {
+    max-width: 100%; /* Make sure the image doesn't exceed the article width */
+    display: block; /* Définit l'image comme un élément de type "bloc" */
+    margin: 0 auto; /* Centre l'image horizontalement */
+    margin-top: 50px; /* Ajoute une marge en haut de 50px */
+    border-radius: 10px; /* Add rounded corners to the image */
+    box-shadow: 3px 3px 5px #ccc; /* Add a drop shadow to the image */
+    border-radius: 15; /* Add rounded corners to the image */
+    height: auto; /* Height will be adjusted automatically */
+    text-align: center;
+}
+
+/***********************************************/
+/***********************************************/
+
+/*Footer de la page pied de page*/
+footer {
+    background-color: #333; /* Background color of the footer */
+    color: white; /* Text color of the footer */
+    padding: 1em; /* Padding for the footer */
+    text-align: center; /* Center the text in the footer */
+}
+
+footer p {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+ footer img{
+   max-width: 100%; /* Make sure the image doesn't exceed the article width */
+   margin-bottom: 1em; /* Bottom margin for the image */
+   border-radius: 10px; /* Add rounded corners to the image */
+   box-shadow: 1px 1px 1px #ccc; /* Add a drop shadow to the image */
+   border-radius: 15; /* Add rounded corners to the image */
+   height: auto; /* Height will be adjusted automatically */
+
+ }
+footer a:hover {
+    color: #ddd; /* Change link color on hover */
+}
+
+footer .avant {
+  text-align: left ;
+}
+
+.plan {
+  max-width: 40%;
+  margin: 0 auto; /* Aligne l'image au centre */
+}
+/***********************************************/
+/*Tout les h1 */
+
+h1 {
+    font-size: 3em; /* Size of the headline */
+    font-weight: bold; /* Make the headline bold */
+    text-align: center; /* Center the headline */
+    margin-top: 1em; /* Top margin for the headline */
+    margin-bottom: 0.5em; /* Bottom margin for the headline */
+    color: white; /* Text color of the headline */
+}
+
+/***********************************************/
+
+ body {
+   background-image: url('ia-visualization-design.gif'); /* Définit l'image de fond */
+    background-size: contain;; /* Ajuste la taille de l'image pour la couvrir */
+    background-repeat:repeat-2; /* autoriser l'image de se répéter */
+  };
